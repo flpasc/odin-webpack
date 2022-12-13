@@ -1,0 +1,23 @@
+{
+  "name": "odin-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flpasch/odin-webpack.git"
+  },
+  "author": "Flpasch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flpasch/odin-webpack/issues"
+  },
+  "homepage": "https://github.com/flpasch/odin-webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
