@@ -1,3 +1,7 @@
+import { home } from "./home";
+import { menu } from "./menu";
+import { contact } from "./contact";
+
 export const template = () => {
 	const content = document.getElementById("content");
 
@@ -17,14 +21,17 @@ export const template = () => {
 	const btnHome = document.createElement("button");
 	btnHome.id = "btn-home";
 	btnHome.innerHTML = "HOME";
+	btnHome.addEventListener("click", home);
 
 	const btnMenu = document.createElement("button");
 	btnMenu.id = "btn-menu";
 	btnMenu.innerHTML = "MENU";
+	btnMenu.addEventListener("click", menu);
 
 	const btnContact = document.createElement("button");
 	btnContact.id = "btn-contact";
 	btnContact.innerHTML = "CONTACT";
+	btnContact.addEventListener("click", contact);
 
 	navBar.appendChild(btnHome);
 	navBar.appendChild(btnMenu);

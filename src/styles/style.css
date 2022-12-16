@@ -14,7 +14,7 @@ body {
 	justify-content: center;
 	background-color: yellow;
 	width: 75vw;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .header {
@@ -37,12 +37,14 @@ body {
 }
 
 .main {
-	padding-top: 120px;
+	margin-top: 350px;
+	padding-top: 220px;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	background-color: rgb(206, 117, 117);
-	height: 100%;
 	width: 90%;
+	min-height: 100vh;
 }
 
 .footer {
@@ -51,4 +53,35 @@ body {
 	width: 140%;
 	height: 40px;
 	background-color: rgb(190, 112, 190);
+}
+
+#opening-hours {
+	font-style: italic;
+	transform: scaleX(1.2);
+	text-align: center;
+}
+
+#welcome {
+	text-align: center;
+
+	max-width: 35vw;
+}
+
+#dish-list {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: rgb(91, 91, 223);
+	width: 50vw;
+}
+
+#meal {
+	margin: 20px;
+	margin-bottom: 40px;
+	padding: 10px;
+	background-color: rgb(241, 185, 0);
+}
+
+#meal > img {
+	width: 200px;
 }
