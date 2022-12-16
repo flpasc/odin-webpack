@@ -34,17 +34,20 @@ body {
 .nav-bar > button {
 	padding: 10px 20px;
 	margin: 0px 10px;
+	width: 120px;
 }
 
 .main {
-	margin-top: 350px;
-	padding-top: 220px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	background-color: rgb(206, 117, 117);
 	width: 90%;
 	min-height: 100vh;
+}
+
+.main > h1 {
+	margin-top: 200px;
 }
 
 .footer {
@@ -75,6 +78,10 @@ body {
 	width: 50vw;
 }
 
+#menue {
+	padding-top: 450px;
+}
+
 #meal {
 	margin: 20px;
 	margin-bottom: 40px;
@@ -84,4 +91,22 @@ body {
 
 #meal > img {
 	width: 200px;
+}
+
+#contact {
+	margin-top: 500px;
+	padding-top: 50px;
+}
+
+#employee-list {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: white;
+}
+
+#employee {
+	padding: 20px;
+	margin: 10px;
+	margin-bottom: 40px;
 }

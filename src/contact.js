@@ -1,3 +1,6 @@
+import Nico from "./img/Nico.jpeg";
+import Wife from "./img/Squirilla.jpeg";
+import Child from "./img/child.jpeg";
 import { Employee } from "./employee";
 
 export const contact = () => {
@@ -6,13 +9,14 @@ export const contact = () => {
 
 	const header = document.createElement("h1");
 	header.textContent = "Contact Us!";
+	header.id = "contact";
 
 	const employeeList = document.createElement("div");
 	employeeList.id = "employee-list";
 
 	employees.forEach((emp) => {
 		const employ = document.createElement("div");
-		employ.id = " employee";
+		employ.id = "employee";
 
 		const empName = document.createElement("div");
 		empName.id = "employee-name";
@@ -26,6 +30,10 @@ export const contact = () => {
 		empAbout.id = "employee-about";
 		empAbout.textContent = emp.about;
 
+		const empImg = document.createElement("img");
+		empImg.src = emp.img;
+
+		employ.appendChild(empImg);
 		employ.appendChild(empName);
 		employ.appendChild(empAge);
 		employ.appendChild(empAbout);
@@ -39,9 +47,9 @@ export const contact = () => {
 
 const employees = [];
 
-const emp1 = new Employee("Nico", "13", "Is the leader and founder of the Nico Nuts Company");
-const emp2 = new Employee("Squirila", "11", "Wife and the better half. Helps where she can");
-const emp3 = new Employee("Maxisquirlian", "3", "More chaos than help");
+const emp1 = new Employee("Nico", "13", "Is the leader and founder of the Nico Nuts Company", Nico);
+const emp2 = new Employee("Squirila", "11", "Wife and the better half. Helps where she can", Wife);
+const emp3 = new Employee("Maxisquirlian", "3", "More chaos than help", Child);
 
 employees.push(emp1);
 employees.push(emp2);

@@ -10,6 +10,7 @@ export const menu = () => {
 
 	const header = document.createElement("h1");
 	header.textContent = "menu";
+	header.id = "menue";
 
 	const dishList = document.createElement("div");
 	dishList.id = "dish-list";
