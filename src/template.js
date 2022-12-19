@@ -6,7 +6,7 @@ export const template = () => {
 	const content = document.getElementById("content");
 
 	const header = document.createElement("div");
-	header.classList = "header";
+	header.id = "header";
 
 	const navBar = document.createElement("div");
 	navBar.classList = "nav-bar";
@@ -16,7 +16,7 @@ export const template = () => {
 	main.id = "main";
 
 	const footer = document.createElement("div");
-	footer.classList = "footer";
+	footer.id = "footer";
 
 	const btnHome = document.createElement("button");
 	btnHome.id = "btn-home";

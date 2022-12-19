@@ -1,4 +1,19 @@
+@font-face {
+	font-family: "header";
+	src: url("../fonts/Audiowide-Regular.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "text";
+	src: url("../fonts/YujiSyuku-Regular.ttf") format("truetype");
+}
+
 body {
+	font-family: "header";
+	background-image: url(../img/background.jpeg);
+	background-size: fill;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -12,21 +27,45 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: yellow;
 	width: 75vw;
 	min-height: 100vh;
 }
 
-.header {
+#header {
 	position: fixed;
 	top: 0;
-	background-color: rgb(96, 195, 96);
+}
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+}
+
+#header,
+#footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: rgba(88, 208, 88, 0.876);
 	width: 140%;
 	height: 40px;
 }
 
+#header > ul,
+#footer > ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+}
+
+#footer > ul > li,
+#header > ul > li {
+	padding: 0px 60px;
+}
+
 .nav-bar {
-	background-color: rgb(109, 109, 146);
 	position: fixed;
 	top: 40px;
 }
@@ -37,56 +76,59 @@ body {
 	width: 120px;
 }
 
+button:hover {
+	background-color: grey;
+}
+
 .main {
+	color: aliceblue;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: rgb(206, 117, 117);
+	background-color: rgba(23, 21, 21, 0.843);
 	width: 90%;
 	min-height: 100vh;
 }
 
 .main > h1 {
+	font-family: "header";
 	margin-top: 200px;
 }
 
-.footer {
-	position: fixed;
-	bottom: 0px;
-	width: 140%;
-	height: 40px;
-	background-color: rgb(190, 112, 190);
-}
-
 #opening-hours {
-	font-style: italic;
+	padding-top: 10vh;
 	transform: scaleX(1.2);
 	text-align: center;
 }
 
 #welcome {
 	text-align: center;
-
-	max-width: 35vw;
+	font-family: "text";
+	font-size: 18px;
+	max-width: 45vw;
 }
 
 #dish-list {
 	text-align: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	background-color: rgb(91, 91, 223);
 	width: 50vw;
+	border-radius: 20px;
+	padding: 20px;
 }
 
 #menue {
-	padding-top: 450px;
+	padding-top: 750px;
 }
 
 #meal {
+	font-family: "text";
 	margin: 20px;
 	margin-bottom: 40px;
-	padding: 10px;
-	background-color: rgb(241, 185, 0);
+	padding: 30px 20px;
+	background-color: rgba(0, 0, 0, 0.568);
+	border-radius: 20px;
+	border-color: white;
 }
 
 #meal > img {
@@ -102,10 +144,10 @@ body {
 	text-align: center;
 	display: grid;
 	grid-template-columns: 1fr;
-	background-color: white;
 }
 
 #employee {
+	font-family: "text";
 	padding: 20px;
 	margin: 10px;
 	margin-bottom: 40px;

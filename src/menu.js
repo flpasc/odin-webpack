@@ -9,7 +9,7 @@ export const menu = () => {
 	content.innerHTML = "";
 
 	const header = document.createElement("h1");
-	header.textContent = "menu";
+	header.textContent = "Menu";
 	header.id = "menue";
 
 	const dishList = document.createElement("div");

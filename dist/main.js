@@ -16,7 +16,7 @@
   \********************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n\\tdisplay: flex;\\n\\talign-items: center;\\n\\tjustify-content: center;\\n\\theight: 100vh;\\n\\tpadding: 0px;\\n\\tmargin: 0px;\\n}\\n\\n#content {\\n\\tdisplay: flex;\\n\\tflex-direction: column;\\n\\talign-items: center;\\n\\tjustify-content: center;\\n\\tbackground-color: yellow;\\n\\twidth: 75vw;\\n\\tmin-height: 100vh;\\n}\\n\\n.header {\\n\\tposition: fixed;\\n\\ttop: 0;\\n\\tbackground-color: rgb(96, 195, 96);\\n\\twidth: 140%;\\n\\theight: 40px;\\n}\\n\\n.nav-bar {\\n\\tbackground-color: rgb(109, 109, 146);\\n\\tposition: fixed;\\n\\ttop: 40px;\\n}\\n\\n.nav-bar > button {\\n\\tpadding: 10px 20px;\\n\\tmargin: 0px 10px;\\n\\twidth: 120px;\\n}\\n\\n.main {\\n\\tdisplay: flex;\\n\\tflex-direction: column;\\n\\talign-items: center;\\n\\tbackground-color: rgb(206, 117, 117);\\n\\twidth: 90%;\\n\\tmin-height: 100vh;\\n}\\n\\n.main > h1 {\\n\\tmargin-top: 200px;\\n}\\n\\n.footer {\\n\\tposition: fixed;\\n\\tbottom: 0px;\\n\\twidth: 140%;\\n\\theight: 40px;\\n\\tbackground-color: rgb(190, 112, 190);\\n}\\n\\n#opening-hours {\\n\\tfont-style: italic;\\n\\ttransform: scaleX(1.2);\\n\\ttext-align: center;\\n}\\n\\n#welcome {\\n\\ttext-align: center;\\n\\n\\tmax-width: 35vw;\\n}\\n\\n#dish-list {\\n\\ttext-align: center;\\n\\tdisplay: grid;\\n\\tgrid-template-columns: 1fr 1fr;\\n\\tbackground-color: rgb(91, 91, 223);\\n\\twidth: 50vw;\\n}\\n\\n#menue {\\n\\tpadding-top: 450px;\\n}\\n\\n#meal {\\n\\tmargin: 20px;\\n\\tmargin-bottom: 40px;\\n\\tpadding: 10px;\\n\\tbackground-color: rgb(241, 185, 0);\\n}\\n\\n#meal > img {\\n\\twidth: 200px;\\n}\\n\\n#contact {\\n\\tmargin-top: 500px;\\n\\tpadding-top: 50px;\\n}\\n\\n#employee-list {\\n\\ttext-align: center;\\n\\tdisplay: grid;\\n\\tgrid-template-columns: 1fr;\\n\\tbackground-color: white;\\n}\\n\\n#employee {\\n\\tpadding: 20px;\\n\\tmargin: 10px;\\n\\tmargin-bottom: 40px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-webpack/./src/styles/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Audiowide-Regular.ttf */ \"./src/fonts/Audiowide-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/YujiSyuku-Regular.ttf */ \"./src/fonts/YujiSyuku-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../img/background.jpeg */ \"./src/img/background.jpeg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face {\\n\\tfont-family: \\\"header\\\";\\n\\tsrc: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"truetype\\\");\\n\\tfont-weight: 800;\\n\\tfont-style: normal;\\n}\\n\\n@font-face {\\n\\tfont-family: \\\"text\\\";\\n\\tsrc: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"truetype\\\");\\n}\\n\\nbody {\\n\\tfont-family: \\\"header\\\";\\n\\tbackground-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n\\tbackground-size: fill;\\n\\tdisplay: flex;\\n\\talign-items: center;\\n\\tjustify-content: center;\\n\\theight: 100vh;\\n\\tpadding: 0px;\\n\\tmargin: 0px;\\n}\\n\\n#content {\\n\\tdisplay: flex;\\n\\tflex-direction: column;\\n\\talign-items: center;\\n\\tjustify-content: center;\\n\\twidth: 75vw;\\n\\tmin-height: 100vh;\\n}\\n\\n#header {\\n\\tposition: fixed;\\n\\ttop: 0;\\n}\\n\\n#footer {\\n\\tposition: fixed;\\n\\tbottom: 0px;\\n}\\n\\n#header,\\n#footer {\\n\\tdisplay: flex;\\n\\tjustify-content: center;\\n\\talign-items: center;\\n\\n\\tbackground-color: rgba(88, 208, 88, 0.876);\\n\\twidth: 140%;\\n\\theight: 40px;\\n}\\n\\n#header > ul,\\n#footer > ul {\\n\\tlist-style: none;\\n\\tdisplay: flex;\\n\\tjustify-content: space-between;\\n\\talign-items: top;\\n}\\n\\n#footer > ul > li,\\n#header > ul > li {\\n\\tpadding: 0px 60px;\\n}\\n\\n.nav-bar {\\n\\tposition: fixed;\\n\\ttop: 40px;\\n}\\n\\n.nav-bar > button {\\n\\tpadding: 10px 20px;\\n\\tmargin: 0px 10px;\\n\\twidth: 120px;\\n}\\n\\nbutton:hover {\\n\\tbackground-color: grey;\\n}\\n\\n.main {\\n\\tcolor: aliceblue;\\n\\tdisplay: flex;\\n\\tflex-direction: column;\\n\\talign-items: center;\\n\\tbackground-color: rgba(23, 21, 21, 0.843);\\n\\twidth: 90%;\\n\\tmin-height: 100vh;\\n}\\n\\n.main > h1 {\\n\\tfont-family: \\\"header\\\";\\n\\tmargin-top: 200px;\\n}\\n\\n#opening-hours {\\n\\tpadding-top: 10vh;\\n\\ttransform: scaleX(1.2);\\n\\ttext-align: center;\\n}\\n\\n#welcome {\\n\\ttext-align: center;\\n\\tfont-family: \\\"text\\\";\\n\\tfont-size: 18px;\\n\\tmax-width: 45vw;\\n}\\n\\n#dish-list {\\n\\ttext-align: center;\\n\\tdisplay: grid;\\n\\tgrid-template-columns: 1fr 1fr;\\n\\twidth: 50vw;\\n\\tborder-radius: 20px;\\n\\tpadding: 20px;\\n}\\n\\n#menue {\\n\\tpadding-top: 750px;\\n}\\n\\n#meal {\\n\\tfont-family: \\\"text\\\";\\n\\tmargin: 20px;\\n\\tmargin-bottom: 40px;\\n\\tpadding: 30px 20px;\\n\\tbackground-color: rgba(0, 0, 0, 0.568);\\n\\tborder-radius: 20px;\\n\\tborder-color: white;\\n}\\n\\n#meal > img {\\n\\twidth: 200px;\\n}\\n\\n#contact {\\n\\tmargin-top: 500px;\\n\\tpadding-top: 50px;\\n}\\n\\n#employee-list {\\n\\ttext-align: center;\\n\\tdisplay: grid;\\n\\tgrid-template-columns: 1fr;\\n}\\n\\n#employee {\\n\\tfont-family: \\\"text\\\";\\n\\tpadding: 20px;\\n\\tmargin: 10px;\\n\\tmargin-bottom: 40px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-webpack/./src/styles/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://odin-webpack/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://odin-webpack/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -110,6 +120,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/banner.js":
+/*!***********************!*\
+  !*** ./src/banner.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"banner\": () => (/* binding */ banner)\n/* harmony export */ });\nconst banner = () => {\n\tconst advertisement = \"+++ 50% +++ NUTS DAYY +++\";\n\tconst header = document.getElementById(\"header\");\n\tconst list = document.createElement(\"ul\");\n\n\tfor (let i = 0; i < 4; i++) {\n\t\tconst ad = document.createElement(\"li\");\n\t\tad.textContent = advertisement;\n\t\tlist.appendChild(ad);\n\t}\n\theader.appendChild(list);\n};\n\n\n//# sourceURL=webpack://odin-webpack/./src/banner.js?");
+
+/***/ }),
+
 /***/ "./src/contact.js":
 /*!************************!*\
   !*** ./src/contact.js ***!
@@ -140,6 +160,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/footer.js":
+/*!***********************!*\
+  !*** ./src/footer.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"footer\": () => (/* binding */ footer)\n/* harmony export */ });\nconst footer = () => {\n\tconst footer = document.getElementById(\"footer\");\n\n\tconst list = document.createElement(\"ul\");\n\tconst text1 = document.createElement(\"li\");\n\ttext1.textContent = \"Made by Flpasch\";\n\n\tconst text2 = document.createElement(\"li\");\n\ttext2.textContent = \"following the Odin-Project\";\n\n\tconst text3 = document.createElement(\"li\");\n\ttext3.textContent = \"2022\";\n\n\tlist.appendChild(text1);\n\tlist.appendChild(text2);\n\tlist.appendChild(text3);\n\n\tfooter.appendChild(list);\n};\n\n\n//# sourceURL=webpack://odin-webpack/./src/footer.js?");
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -156,7 +186,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./template */ \"./src/template.js\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n\n\n\n\nconsole.log(\"Hi i`m working just fine\");\n(0,_template__WEBPACK_IMPORTED_MODULE_0__.template)();\n(0,_home__WEBPACK_IMPORTED_MODULE_2__.home)();\n\n\n//# sourceURL=webpack://odin-webpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./template */ \"./src/template.js\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./banner */ \"./src/banner.js\");\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer */ \"./src/footer.js\");\n\n\n\n\n\n\nconsole.log(\"Hi i`m working just fine\");\n(0,_template__WEBPACK_IMPORTED_MODULE_0__.template)();\n(0,_home__WEBPACK_IMPORTED_MODULE_2__.home)();\n(0,_banner__WEBPACK_IMPORTED_MODULE_3__.banner)();\n(0,_footer__WEBPACK_IMPORTED_MODULE_4__.footer)();\n\n\n//# sourceURL=webpack://odin-webpack/./src/index.js?");
 
 /***/ }),
 
@@ -166,7 +196,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tem
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menu\": () => (/* binding */ menu)\n/* harmony export */ });\n/* harmony import */ var _dish__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dish */ \"./src/dish.js\");\n/* harmony import */ var _img_almonds_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/almonds.jpeg */ \"./src/img/almonds.jpeg\");\n/* harmony import */ var _img_cashew_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/cashew.jpeg */ \"./src/img/cashew.jpeg\");\n/* harmony import */ var _img_hazelnut_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/hazelnut.jpeg */ \"./src/img/hazelnut.jpeg\");\n/* harmony import */ var _img_walnut_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/walnut.jpeg */ \"./src/img/walnut.jpeg\");\n\n\n\n\n\n\nconst menu = () => {\n\tconst content = document.getElementById(\"main\");\n\tcontent.innerHTML = \"\";\n\n\tconst header = document.createElement(\"h1\");\n\theader.textContent = \"menu\";\n\theader.id = \"menue\";\n\n\tconst dishList = document.createElement(\"div\");\n\tdishList.id = \"dish-list\";\n\n\tdishes.forEach((dish) => {\n\t\tconst meal = document.createElement(\"div\");\n\t\tmeal.id = \"meal\";\n\n\t\tconst mealImg = document.createElement(\"img\");\n\t\tmealImg.src = dish.img;\n\n\t\tconst mealName = document.createElement(\"div\");\n\t\tmealName.id = \"meal-name\";\n\t\tmealName.textContent = dish.name;\n\n\t\tconst mealDescription = document.createElement(\"div\");\n\t\tmealDescription.id = \"meal-description\";\n\t\tmealDescription.textContent = dish.description;\n\n\t\tconst mealPrice = document.createElement(\"div\");\n\t\tmealPrice.id = \"meal-price\";\n\t\tmealPrice.textContent = dish.price;\n\n\t\tmeal.appendChild(mealImg);\n\t\tmeal.appendChild(mealName);\n\t\tmeal.appendChild(mealDescription);\n\t\tmeal.appendChild(mealPrice);\n\n\t\tdishList.appendChild(meal);\n\t});\n\n\tcontent.appendChild(header);\n\tcontent.appendChild(dishList);\n};\n\nconst dishes = [];\n\nconst meal1 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Walnut\", \"very waaaallliee\", _img_walnut_jpeg__WEBPACK_IMPORTED_MODULE_4__, \"3 $\");\nconst meal2 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Hazelnut\", \"very waaaallliee\", _img_hazelnut_jpeg__WEBPACK_IMPORTED_MODULE_3__, \"4 $\");\nconst meal3 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Cashew\", \"very waaaallliee\", _img_cashew_jpeg__WEBPACK_IMPORTED_MODULE_2__, \"7 $\");\nconst meal4 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Almonds\", \"very waaaallliee\", _img_almonds_jpeg__WEBPACK_IMPORTED_MODULE_1__, \"6 $\");\nconst meal5 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Walnut\", \"very waaaallliee\", _img_walnut_jpeg__WEBPACK_IMPORTED_MODULE_4__, \"3 $\");\nconst meal6 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Hazelnut\", \"very waaaallliee\", _img_hazelnut_jpeg__WEBPACK_IMPORTED_MODULE_3__, \"4 $\");\nconst meal7 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Cashew\", \"very waaaallliee\", _img_cashew_jpeg__WEBPACK_IMPORTED_MODULE_2__, \"7 $\");\nconst meal8 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Almonds\", \"very waaaallliee\", _img_almonds_jpeg__WEBPACK_IMPORTED_MODULE_1__, \"6 $\");\n\ndishes.push(meal1);\ndishes.push(meal2);\ndishes.push(meal3);\ndishes.push(meal4);\ndishes.push(meal5);\ndishes.push(meal6);\ndishes.push(meal7);\ndishes.push(meal8);\n\n\n//# sourceURL=webpack://odin-webpack/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menu\": () => (/* binding */ menu)\n/* harmony export */ });\n/* harmony import */ var _dish__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dish */ \"./src/dish.js\");\n/* harmony import */ var _img_almonds_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/almonds.jpeg */ \"./src/img/almonds.jpeg\");\n/* harmony import */ var _img_cashew_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/cashew.jpeg */ \"./src/img/cashew.jpeg\");\n/* harmony import */ var _img_hazelnut_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/hazelnut.jpeg */ \"./src/img/hazelnut.jpeg\");\n/* harmony import */ var _img_walnut_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/walnut.jpeg */ \"./src/img/walnut.jpeg\");\n\n\n\n\n\n\nconst menu = () => {\n\tconst content = document.getElementById(\"main\");\n\tcontent.innerHTML = \"\";\n\n\tconst header = document.createElement(\"h1\");\n\theader.textContent = \"Menu\";\n\theader.id = \"menue\";\n\n\tconst dishList = document.createElement(\"div\");\n\tdishList.id = \"dish-list\";\n\n\tdishes.forEach((dish) => {\n\t\tconst meal = document.createElement(\"div\");\n\t\tmeal.id = \"meal\";\n\n\t\tconst mealImg = document.createElement(\"img\");\n\t\tmealImg.src = dish.img;\n\n\t\tconst mealName = document.createElement(\"div\");\n\t\tmealName.id = \"meal-name\";\n\t\tmealName.textContent = dish.name;\n\n\t\tconst mealDescription = document.createElement(\"div\");\n\t\tmealDescription.id = \"meal-description\";\n\t\tmealDescription.textContent = dish.description;\n\n\t\tconst mealPrice = document.createElement(\"div\");\n\t\tmealPrice.id = \"meal-price\";\n\t\tmealPrice.textContent = dish.price;\n\n\t\tmeal.appendChild(mealImg);\n\t\tmeal.appendChild(mealName);\n\t\tmeal.appendChild(mealDescription);\n\t\tmeal.appendChild(mealPrice);\n\n\t\tdishList.appendChild(meal);\n\t});\n\n\tcontent.appendChild(header);\n\tcontent.appendChild(dishList);\n};\n\nconst dishes = [];\n\nconst meal1 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Walnut\", \"very waaaallliee\", _img_walnut_jpeg__WEBPACK_IMPORTED_MODULE_4__, \"3 $\");\nconst meal2 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Hazelnut\", \"very waaaallliee\", _img_hazelnut_jpeg__WEBPACK_IMPORTED_MODULE_3__, \"4 $\");\nconst meal3 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Cashew\", \"very waaaallliee\", _img_cashew_jpeg__WEBPACK_IMPORTED_MODULE_2__, \"7 $\");\nconst meal4 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Almonds\", \"very waaaallliee\", _img_almonds_jpeg__WEBPACK_IMPORTED_MODULE_1__, \"6 $\");\nconst meal5 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Walnut\", \"very waaaallliee\", _img_walnut_jpeg__WEBPACK_IMPORTED_MODULE_4__, \"3 $\");\nconst meal6 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Hazelnut\", \"very waaaallliee\", _img_hazelnut_jpeg__WEBPACK_IMPORTED_MODULE_3__, \"4 $\");\nconst meal7 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Cashew\", \"very waaaallliee\", _img_cashew_jpeg__WEBPACK_IMPORTED_MODULE_2__, \"7 $\");\nconst meal8 = new _dish__WEBPACK_IMPORTED_MODULE_0__.Dish(\"Almonds\", \"very waaaallliee\", _img_almonds_jpeg__WEBPACK_IMPORTED_MODULE_1__, \"6 $\");\n\ndishes.push(meal1);\ndishes.push(meal2);\ndishes.push(meal3);\ndishes.push(meal4);\ndishes.push(meal5);\ndishes.push(meal6);\ndishes.push(meal7);\ndishes.push(meal8);\n\n\n//# sourceURL=webpack://odin-webpack/./src/menu.js?");
 
 /***/ }),
 
@@ -186,7 +216,27 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"template\": () => (/* binding */ template)\n/* harmony export */ });\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\n\n\n\nconst template = () => {\n\tconst content = document.getElementById(\"content\");\n\n\tconst header = document.createElement(\"div\");\n\theader.classList = \"header\";\n\n\tconst navBar = document.createElement(\"div\");\n\tnavBar.classList = \"nav-bar\";\n\n\tconst main = document.createElement(\"div\");\n\tmain.classList = \"main\";\n\tmain.id = \"main\";\n\n\tconst footer = document.createElement(\"div\");\n\tfooter.classList = \"footer\";\n\n\tconst btnHome = document.createElement(\"button\");\n\tbtnHome.id = \"btn-home\";\n\tbtnHome.innerHTML = \"HOME\";\n\tbtnHome.addEventListener(\"click\", _home__WEBPACK_IMPORTED_MODULE_0__.home);\n\n\tconst btnMenu = document.createElement(\"button\");\n\tbtnMenu.id = \"btn-menu\";\n\tbtnMenu.innerHTML = \"MENU\";\n\tbtnMenu.addEventListener(\"click\", _menu__WEBPACK_IMPORTED_MODULE_1__.menu);\n\n\tconst btnContact = document.createElement(\"button\");\n\tbtnContact.id = \"btn-contact\";\n\tbtnContact.innerHTML = \"CONTACT\";\n\tbtnContact.addEventListener(\"click\", _contact__WEBPACK_IMPORTED_MODULE_2__.contact);\n\n\tnavBar.appendChild(btnHome);\n\tnavBar.appendChild(btnMenu);\n\tnavBar.appendChild(btnContact);\n\n\tcontent.appendChild(header);\n\tcontent.appendChild(navBar);\n\tcontent.appendChild(main);\n\tcontent.appendChild(footer);\n};\n\n\n//# sourceURL=webpack://odin-webpack/./src/template.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"template\": () => (/* binding */ template)\n/* harmony export */ });\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\n\n\n\nconst template = () => {\n\tconst content = document.getElementById(\"content\");\n\n\tconst header = document.createElement(\"div\");\n\theader.id = \"header\";\n\n\tconst navBar = document.createElement(\"div\");\n\tnavBar.classList = \"nav-bar\";\n\n\tconst main = document.createElement(\"div\");\n\tmain.classList = \"main\";\n\tmain.id = \"main\";\n\n\tconst footer = document.createElement(\"div\");\n\tfooter.id = \"footer\";\n\n\tconst btnHome = document.createElement(\"button\");\n\tbtnHome.id = \"btn-home\";\n\tbtnHome.innerHTML = \"HOME\";\n\tbtnHome.addEventListener(\"click\", _home__WEBPACK_IMPORTED_MODULE_0__.home);\n\n\tconst btnMenu = document.createElement(\"button\");\n\tbtnMenu.id = \"btn-menu\";\n\tbtnMenu.innerHTML = \"MENU\";\n\tbtnMenu.addEventListener(\"click\", _menu__WEBPACK_IMPORTED_MODULE_1__.menu);\n\n\tconst btnContact = document.createElement(\"button\");\n\tbtnContact.id = \"btn-contact\";\n\tbtnContact.innerHTML = \"CONTACT\";\n\tbtnContact.addEventListener(\"click\", _contact__WEBPACK_IMPORTED_MODULE_2__.contact);\n\n\tnavBar.appendChild(btnHome);\n\tnavBar.appendChild(btnMenu);\n\tnavBar.appendChild(btnContact);\n\n\tcontent.appendChild(header);\n\tcontent.appendChild(navBar);\n\tcontent.appendChild(main);\n\tcontent.appendChild(footer);\n};\n\n\n//# sourceURL=webpack://odin-webpack/./src/template.js?");
+
+/***/ }),
+
+/***/ "./src/fonts/Audiowide-Regular.ttf":
+/*!*****************************************!*\
+  !*** ./src/fonts/Audiowide-Regular.ttf ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2017bdb174a62d0daa3e.ttf\";\n\n//# sourceURL=webpack://odin-webpack/./src/fonts/Audiowide-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/fonts/YujiSyuku-Regular.ttf":
+/*!*****************************************!*\
+  !*** ./src/fonts/YujiSyuku-Regular.ttf ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"597f191659eefd846b89.ttf\";\n\n//# sourceURL=webpack://odin-webpack/./src/fonts/YujiSyuku-Regular.ttf?");
 
 /***/ }),
 
@@ -217,6 +267,16 @@ eval("module.exports = __webpack_require__.p + \"3a1026ae2f8c741f5173.jpeg\";\n\
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"792475608e4b29348a27.jpeg\";\n\n//# sourceURL=webpack://odin-webpack/./src/img/almonds.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img/background.jpeg":
+/*!*********************************!*\
+  !*** ./src/img/background.jpeg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"21ed1c53745a1942a61c.jpeg\";\n\n//# sourceURL=webpack://odin-webpack/./src/img/background.jpeg?");
 
 /***/ }),
 
@@ -285,6 +345,9 @@ eval("module.exports = __webpack_require__.p + \"a084a203acd8d8acea25.jpeg\";\n\
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -357,6 +420,32 @@ eval("module.exports = __webpack_require__.p + \"a084a203acd8d8acea25.jpeg\";\n\
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
